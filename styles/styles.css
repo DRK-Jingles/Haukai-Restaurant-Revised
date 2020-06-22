@@ -1,0 +1,116 @@
+ /* Universal box sizing */
+ * {
+    box-sizing: content-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: aqua;
+}
+main{
+    float: middle;
+    text-align: center;
+    max-width: 100%;
+    font-size: 2vw;
+    padding: 0.5vw;
+}
+/* Style the header */
+.header {
+    background-image: url("../images/bay-panorama.jpg");
+    background-size: cover;
+    text-align: center;
+    font-size: 3.5vw;
+    padding: 0.5vw;
+}
+h1 {
+    background-color: transparent;
+}
+.mainImg {
+    width: 100%;
+}
+.menuImg {
+    width: 18pc;
+    height: 12pc;
+}
+.miniHorizontal {
+    width: 4.5pc;
+    height: 3pc;
+}
+.miniVertical {
+    width: 3pc;
+    height: 4pc;
+}
+.footImg{
+    width: 3pc;
+    height: 2pc;
+}
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: aquamarine;
+    font-size: 2vw;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    background-color: inherit;
+    color: black;
+    text-align: center;
+    padding: 1.5vw 1vw;
+}
+.topnav a:hover {
+    background-color: black;
+    color: aquamarine;
+}
+/* Create two equal columns that float next to each other */
+.column {
+    text-align: center;
+    float: left;
+    width: 50%;
+    font-size: 2vw;
+}
+.third {
+    text-align: center;
+    float: left;
+    font-size: 2vw;
+    width: 33%;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
+.footer {
+    background-color: aqua;
+    text-align: center;
+    font-size: 2vw;
+    padding: o.5vw;
+}
+/*map stuff*/
+#map * {
+    background-color: initial;
+}
+.big {
+    height: 400px;
+    width: 100%;
+    background-color: grey;
+}
+.small{
+    height: 250px;
+    width: 65%;
+    background-color: grey;
+    display: block;
+}
+.calender {
+    width: 65%;
+}
+/*created by:Adam Hearps
+student id: 5001160
+For: openpolytech, BIT607, assignment 2.*/
